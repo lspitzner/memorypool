@@ -10,8 +10,15 @@ maintainer:          lsp@informatik.uni-kiel.de
 copyright:           Copyright (C) 2016 Lennart Spitzner
 category:            System
 build-type:          Simple
-extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
+
+extra-source-files:
+  ChangeLog.md
+  README.md
+
+source-repository head
+  type: git
+  location: https://github.com/lspitzner/memorypool.git
 
 library
   exposed-modules:     System.MemoryPool
