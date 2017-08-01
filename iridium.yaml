@@ -26,7 +26,9 @@ checks:
       - compiler: "ghc"
         version: "7.10.3"
       - compiler: "ghc"
-        version: "8.0.1"
+        version: "8.0.2"
+      - compiler: "ghc"
+        version: "8.2.1"
     compilers-help: |
       for this to work, cabal will need the paths to the actual
       compilers to be configured; see the note about the user-global
